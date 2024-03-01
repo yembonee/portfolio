@@ -5,6 +5,7 @@ const MainPage = ({ imageSrc }) => {
   return (
     <section
       style={{
+        overflow: "hidden",
         display: "flex",
         alignItems: "center",
         height: "100vh",
@@ -16,6 +17,7 @@ const MainPage = ({ imageSrc }) => {
     >
       <div style={{ maxWidth: "600px" }}>
         <Heading
+          overflow="auto"
           fontSize="72px"
           fontWeight="700"
           color="white"

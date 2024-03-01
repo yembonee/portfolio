@@ -21,3 +21,11 @@ code {
 html {
   background-color: #2e2e2e;
 }
+
+* {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

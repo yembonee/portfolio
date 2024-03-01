@@ -21,6 +21,7 @@ function App() {
     <ChakraProvider bgColor="#2E2E2E ">
       <MainPage bgColor="#190041" imageSrc={profilePicture} />
       <Box
+        overflow="hidden"
         display="flex"
         backgroundColor="#00223a"
         justifyContent="space-evenly"
