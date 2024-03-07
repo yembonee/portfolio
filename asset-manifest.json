@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a6b14e12.css",
-    "main.js": "/portfolio/static/js/main.d2c008cc.js",
+    "main.css": "/portfolio/static/css/main.8021aee8.css",
+    "main.js": "/portfolio/static/js/main.2c9a67b3.js",
     "static/js/787.77949863.chunk.js": "/portfolio/static/js/787.77949863.chunk.js",
     "static/media/movie-clapperwall.jpg": "/portfolio/static/media/movie-clapperwall.7bb74af8c5668e99b243.jpg",
     "static/media/myFlix-page.png": "/portfolio/static/media/myFlix-page.7618305a15fe904dec3c.png",
@@ -12,12 +12,12 @@
     "static/media/yemi-idowu.jpg": "/portfolio/static/media/yemi-idowu.1c03ad534f0f5c0e675a.jpg",
     "static/media/myFlix-angular.png": "/portfolio/static/media/myFlix-angular.847b4dca9d67c2bf2d6d.png",
     "index.html": "/portfolio/index.html",
-    "main.a6b14e12.css.map": "/portfolio/static/css/main.a6b14e12.css.map",
-    "main.d2c008cc.js.map": "/portfolio/static/js/main.d2c008cc.js.map",
+    "main.8021aee8.css.map": "/portfolio/static/css/main.8021aee8.css.map",
+    "main.2c9a67b3.js.map": "/portfolio/static/js/main.2c9a67b3.js.map",
     "787.77949863.chunk.js.map": "/portfolio/static/js/787.77949863.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6b14e12.css",
-    "static/js/main.d2c008cc.js"
+    "static/css/main.8021aee8.css",
+    "static/js/main.2c9a67b3.js"
   ]
 }
