@@ -1,0 +1,87 @@
+@media screen and (min-width: 1920px) {
+  .project-info2 {
+    display: none;
+  }
+  .heading-box {
+    font-size: 28px;
+  }
+  .dates {
+    font-size: 16px;
+    margin-bottom: -18px;
+  }
+  .languages {
+    font-size: 20px;
+  }
+  .language {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .project-info2 {
+    display: none;
+  }
+  .heading-box {
+    font-size: 28px;
+  }
+  .dates {
+    font-size: 16px;
+    margin-bottom: -18px;
+  }
+  .languages {
+    font-size: 20px;
+  }
+  .language {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .project-info2 {
+    display: none;
+  }
+  .heading-box {
+    font-size: 22px;
+  }
+  .dates {
+    font-size: 14px;
+    margin-bottom: -18px;
+  }
+  .languages {
+    font-size: 18px;
+  }
+  .language {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 350px;
+  }
+  .project-info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-info {
+    display: none;
+  }
+  .languages {
+    display: none;
+  }
+  .language {
+    display: none;
+  }
+  .card {
+    width: 250px;
+    height: 420px;
+  }
+  .heading-box {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

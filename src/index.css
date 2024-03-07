@@ -12,12 +12,6 @@ code {
     monospace;
 }
 
-@media all and (min-width: 600px) {
-  .mobile {
-    display: none;
-  }
-}
-
 html {
   background-color: #2e2e2e;
 }
@@ -26,6 +20,34 @@ html {
   -ms-overflow-style: none;
 }
 
+.app {
+  background-image: url("./assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 ::-webkit-scrollbar {
   display: none;
+}
+@media screen and (max-width: 1920px) {
+}
+
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .app {
+    width: fit-content;
+  }
 }

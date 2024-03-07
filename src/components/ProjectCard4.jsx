@@ -21,17 +21,26 @@ const ProjectCard4 = ({ imageSrc }) => {
       borderWidth="2px"
       bgColor="rgba(255, 255, 255, 0)"
       boxShadow="2px 3px 13px black"
-      maxW="md"
-      minW="sm"
       textShadow="2px 2px 5px black"
+      maxW="400px"
+      maxH="550px"
       marginBottom="50px"
+      className="card"
+      backgroundColor="rgba(55, 55, 55, .4)"
     >
       <CardHeader color="white">
-        <Flex spacing="3">
+        <Flex spacing="4">
           <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
             <Box>
-              <Heading size="lg">Meet React App</Heading>
-              <Text fontSize="18px" fontWeight="bold" color="white">
+              <Heading className="heading-box" size="38px">
+                Meet React App
+              </Heading>
+              <Text
+                className="dates"
+                size="18px"
+                fontWeight="bold"
+                color="white"
+              >
                 November 17, 2023
               </Text>
             </Box>
@@ -39,22 +48,20 @@ const ProjectCard4 = ({ imageSrc }) => {
         </Flex>
       </CardHeader>
       <CardBody color="white">
-        <Text>
-          This app is a progressive web application using React with a Test
-          Driven development technique, using the Google Calendar Api to fetch
-          upcoming events. With this Meet app, serverless functions are a prime
-          foundation in making this application possible. It will be accessing
-          the Google Calendar API, as well as using AWS Lambda for the cloud
-          service provider.
-        </Text>
-      </CardBody>
-      <CardBody color="white">
-        <Heading fontSize="22px">Languages Used</Heading>
-        <Text fontSize="16px" fontWeight="bold" color="white">
+        <Heading className="languages" size="22px">
+          Languages Used
+        </Heading>
+        <Text size="16px" className="language" fontWeight="bold" color="white">
           JavaScript | HTML | React | Jest
         </Text>
       </CardBody>
-      <Image objectFit="cover" height="300px" src={imageSrc} alt="Chakra UI" />
+      <Image
+        className="image"
+        objectFit="cover"
+        height="300px"
+        src={imageSrc}
+        alt="Chakra UI"
+      />
 
       <CardFooter
         justifyContent="space-evenly"

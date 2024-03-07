@@ -1,6 +1,7 @@
 import * as React from "react";
 import { ChakraProvider, Box } from "@chakra-ui/react";
 import MainPage from "./components/MainPage";
+import About from "./components/About";
 import Footer from "./components/Footer";
 import picture1 from "./assets/pokemon-page.png";
 import picture2 from "./assets/movie-clapperwall.jpg";
@@ -18,49 +19,51 @@ import ProjectCard6 from "./components/ProjectCard6";
 
 function App() {
   return (
-    <ChakraProvider bgColor="#2E2E2E ">
-      <MainPage bgColor="#190041" imageSrc={profilePicture} />
-      <Box
-        overflow="hidden"
-        display="flex"
-        backgroundColor="#00223a"
-        justifyContent="space-evenly"
-        padding="50px"
-        flexWrap="wrap"
-        backgroundImage="linear-gradient(180deg, rgba(0,119,84,1) 0%, rgba(123,82,208,1) 100%)"
-      >
-        <ProjectCard1 imageSrc={picture1} />
-        <ProjectCard2 imageSrc={picture2} />
-      </Box>
-      <Box
-        display="flex"
-        backgroundColor="#a73573"
-        justifyContent="space-evenly"
-        padding="50px"
-        flexWrap="wrap"
-        background="linear-gradient(0deg, rgba(0,119,84,1) 0%, rgba(123,82,208,1) 100%)"
-      >
-        <ProjectCard3 imageSrc={picture3} />
+    <div className="app">
+      <ChakraProvider>
+        <div className="main-page">
+          <MainPage imageSrc={profilePicture} />
+        </div>
+        <div>
+          <About />
+        </div>
+        <div className="box">
+          <Box
+            marginTop="70px"
+            overflow="hidden"
+            display="flex"
+            justifyContent="space-evenly"
+            padding="25px"
+            flexWrap="wrap"
+          >
+            <ProjectCard1 imageSrc={picture1} />
+            <ProjectCard2 imageSrc={picture2} />
+            <ProjectCard3 imageSrc={picture3} />
+          </Box>
+        </div>
 
-        <ProjectCard4 imageSrc={picture4} />
-      </Box>
-
-      <Box
-        display="flex"
-        backgroundColor="#a73573"
-        justifyContent="space-evenly"
-        padding="50px"
-        flexWrap="wrap"
-        background="linear-gradient(180deg, rgba(0,119,84,1) 0%, rgba(123,82,208,1) 100%)"
-      >
-        <ProjectCard5 imageSrc={picture5} />
-
-        <ProjectCard6 imageSrc={picture6} />
-      </Box>
-      <Box bgColor="#190041">
-        <Footer />
-      </Box>
-    </ChakraProvider>
+        <Box
+          overflow="hidden"
+          display="flex"
+          justifyContent="space-evenly"
+          padding="25px"
+          flexWrap="wrap"
+        >
+          <ProjectCard4 imageSrc={picture4} />
+          <ProjectCard5 imageSrc={picture5} />
+          <ProjectCard6 imageSrc={picture6} />
+        </Box>
+        <Box
+          overflow="hidden"
+          display="flex"
+          justifyContent="space-evenly"
+          padding="25px"
+          flexWrap="wrap"
+        >
+          <Footer />
+        </Box>
+      </ChakraProvider>
+    </div>
   );
 }
 

@@ -13,6 +13,7 @@ import {
   CardBody,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import "./css/ProjectCard.css";
 
 const ProjectCard1 = ({ imageSrc }) => {
   return (
@@ -22,41 +23,48 @@ const ProjectCard1 = ({ imageSrc }) => {
       bgColor="rgba(255, 255, 255, 0)"
       boxShadow="2px 3px 13px black"
       textShadow="2px 2px 5px black"
-      maxW="md"
+      maxW="400px"
+      maxH="550px"
       marginBottom="50px"
+      className="card"
+      backgroundColor="rgba(55, 55, 55, .4)"
     >
       <CardHeader>
         <Flex spacing="4">
           <Flex flex="1" alignItems="center" flexWrap="wrap">
             <Box>
-              <Heading size="lg" color="white">
+              <Heading className="heading-box" size="38px" color="white">
                 Simple JS Pokedex Project
               </Heading>
-              <Text fontSize="18px" fontWeight="bold" color="white">
+              <Text
+                className="dates"
+                size="18px"
+                fontWeight="bold"
+                color="white"
+              >
                 September 16, 2023
               </Text>
             </Box>
           </Flex>
         </Flex>
       </CardHeader>
-      <CardBody>
-        <Text color="white">
-          This project uses the Pokemon API, and displays a page of each and
-          every pokemon, as well as their individual information in the form of
-          a modal. This site was mainly built using Javascript, HTML, and CSS.
-          It also uses the bootstrap framework to enhance the site even further.
-          It was the first offcial project I had completed.
-        </Text>
-      </CardBody>
-      <CardBody color="white" height="90px">
-        <Heading fontSize="22px">Languages Used</Heading>
-        <Text fontSize="16px" fontWeight="bold" color="white">
+      <CardBody color="white">
+        <Heading className="languages" size="22px">
+          Languages Used
+        </Heading>
+        <Text size="16px" className="language" fontWeight="bold" color="white">
           JavaScript | HTML | CSS | Bootstrap
         </Text>
       </CardBody>
-      <Image objectFit="cover" height="300px" src={imageSrc} alt="Chakra UI" />
-
+      <Image
+        className="image"
+        objectFit="cover"
+        height="300px"
+        src={imageSrc}
+        alt="Chakra UI"
+      />
       <CardFooter
+        className="footer"
         color="white"
         justifyContent="space-evenly"
         flexWrap="wrap"
