@@ -1,5 +1,4 @@
 import { Box, Heading } from "@chakra-ui/react";
-import { color } from "framer-motion";
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 
@@ -73,7 +72,7 @@ const Footer = () => {
           <div>
             <SocialIcon
               style={{ height: 35, width: 35, margin: "10px" }}
-              url="https://www.instagram.com/yemboneee/"
+              url="https://medium.com/@yemsonidowu"
             />
           </div>
         </div>

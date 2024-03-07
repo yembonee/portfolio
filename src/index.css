@@ -41,13 +41,7 @@ html {
 }
 
 @media screen and (max-width: 768px) {
-  .app {
-    width: fit-content;
-  }
 }
 
 @media screen and (max-width: 480px) {
-  .app {
-    width: fit-content;
-  }
 }
