@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8021aee8.css",
-    "main.js": "/portfolio/static/js/main.2c9a67b3.js",
+    "main.css": "/portfolio/static/css/main.98dac56f.css",
+    "main.js": "/portfolio/static/js/main.e4de109c.js",
     "static/js/787.77949863.chunk.js": "/portfolio/static/js/787.77949863.chunk.js",
     "static/media/movie-clapperwall.jpg": "/portfolio/static/media/movie-clapperwall.7bb74af8c5668e99b243.jpg",
     "static/media/myFlix-page.png": "/portfolio/static/media/myFlix-page.7618305a15fe904dec3c.png",
     "static/media/native-project.png": "/portfolio/static/media/native-project.902abc462d7f10f227d2.png",
     "static/media/pokemon-page.png": "/portfolio/static/media/pokemon-page.cac2b231f01b7088feeb.png",
-    "static/media/background.jpg": "/portfolio/static/media/background.de994216271cd5805f11.jpg",
+    "static/media/background.jpg": "/portfolio/static/media/background.b05dbaa93c9bfc38c4d5.jpg",
     "static/media/meet-app.png": "/portfolio/static/media/meet-app.8650a0e998fc42d929f5.png",
     "static/media/yemi-idowu.jpg": "/portfolio/static/media/yemi-idowu.1c03ad534f0f5c0e675a.jpg",
     "static/media/myFlix-angular.png": "/portfolio/static/media/myFlix-angular.847b4dca9d67c2bf2d6d.png",
     "index.html": "/portfolio/index.html",
-    "main.8021aee8.css.map": "/portfolio/static/css/main.8021aee8.css.map",
-    "main.2c9a67b3.js.map": "/portfolio/static/js/main.2c9a67b3.js.map",
+    "main.98dac56f.css.map": "/portfolio/static/css/main.98dac56f.css.map",
+    "main.e4de109c.js.map": "/portfolio/static/js/main.e4de109c.js.map",
     "787.77949863.chunk.js.map": "/portfolio/static/js/787.77949863.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8021aee8.css",
-    "static/js/main.2c9a67b3.js"
+    "static/css/main.98dac56f.css",
+    "static/js/main.e4de109c.js"
   ]
 }
