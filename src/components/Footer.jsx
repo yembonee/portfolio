@@ -31,7 +31,7 @@ const Footer = () => {
           textShadow="2px 2px 5px black"
           fontFamily="monospace"
         >
-          Contacts and Socials
+          Contacts and Resume
         </Heading>
         <div
           style={{
@@ -60,19 +60,24 @@ const Footer = () => {
           <div>
             <SocialIcon
               style={{ height: 35, width: 35, margin: "10px" }}
-              url="https://twitter.com/yembone_"
-            />
-          </div>
-          <div>
-            <SocialIcon
-              style={{ height: 35, width: 35, margin: "10px" }}
               url="mailto:yemsonidowu@gmail.com"
             />
           </div>
           <div>
+            <p
+              style={{
+                color: "white",
+                paddingLeft: "15px",
+                paddingRight: "5px",
+              }}
+            >
+              Resume:
+            </p>
+          </div>
+          <div>
             <SocialIcon
               style={{ height: 35, width: 35, margin: "10px" }}
-              url="https://medium.com/@yemsonidowu"
+              url="https://drive.google.com/file/d/1jDO8uXm5GwmUFrN9lMdVXPSTym1u0_uU/view?usp=drive_link"
             />
           </div>
         </div>

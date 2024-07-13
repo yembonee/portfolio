@@ -29,7 +29,7 @@ function App() {
         </div>
         <div className="box">
           <Box
-            marginTop="130px"
+            marginTop="250px"
             overflow="hidden"
             display="flex"
             justifyContent="space-evenly"

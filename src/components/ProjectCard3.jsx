@@ -85,7 +85,7 @@ const ProjectCard3 = ({ imageSrc }) => {
           </Button>
         </Link>
         <Link
-          href="https://loquacious-gaufre-5f35f2.netlify.app/login"
+          href="https://docs.google.com/presentation/d/1-heFuXJA5FRhGjws75zANY2JSp4qLHyIccWqjmgRXR0/edit?usp=sharing"
           isExternal
         >
           <Button
@@ -95,7 +95,7 @@ const ProjectCard3 = ({ imageSrc }) => {
             variant="ghost"
             rightIcon={<ExternalLinkIcon />}
           >
-            Site Page
+            Case Study
           </Button>
         </Link>
       </CardFooter>
