@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "../assets/case-study-1.pdf";
 import {
   Box,
   Heading,
@@ -84,10 +85,7 @@ const ProjectCard3 = ({ imageSrc }) => {
             Github Repo
           </Button>
         </Link>
-        <Link
-          href="https://docs.google.com/presentation/d/1-heFuXJA5FRhGjws75zANY2JSp4qLHyIccWqjmgRXR0/edit?usp=sharing"
-          isExternal
-        >
+        <a href={Pdf}>
           <Button
             color="white"
             flex="1"
@@ -97,7 +95,7 @@ const ProjectCard3 = ({ imageSrc }) => {
           >
             Case Study
           </Button>
-        </Link>
+        </a>
       </CardFooter>
     </Card>
   );
